@@ -10,8 +10,7 @@ Notes of Functional and Reactive Domain Modeling
 3. Event driven also means the main thread of execution is never blocked.
 
 4. Decouple state from behavior
-
-- State resides within the ADT and the behaviors are modeled as standalone functions within modules.
+	- State resides within the ADT and the behaviors are modeled as standalone functions within modules.
 
 5. Most of your model behaviors are built out of pure functions, you get the power of compositionality, then you can build larger funcitons out of smaller ones through composition.
 
@@ -22,8 +21,8 @@ Notes of Functional and Reactive Domain Modeling
 8. Pure functions are ideal because you can freely distribute them without worrying about mutating their state.
 
 9. Always design for failure and manage failures as a separate concern without couping exception handles with bussiness logic code
-- Use Try to hanlde exception logic.
-- Have a separate module that handles failures - decouping failure make it pluggable
+	- Use Try to hanlde exception logic.
+	- Have a separate module that handles failures - decouping failure make it pluggable
 
 ### Chapter 2
 
